@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'UniSansHeavyCaps';
+    src: url('fonts/UniSansHeavyCaps.eot');
+    src: url('fonts/UniSansHeavyCaps.eot') format('embedded-opentype'),
+         url('fonts/UniSansHeavyCaps.woff2') format('woff2'),
+         url('fonts/UniSansHeavyCaps.woff') format('woff'),
+         url('fonts/UniSansHeavyCaps.ttf') format('truetype'),
+         url('fonts/UniSansHeavyCaps.svg#UniSansHeavyCaps') format('svg');
+}
+
+.container {
+    background: #fff;
+}
+
+body{
+    background: url(../images/img2.png);
+}
+#first{
+    background: #10BA79;
+    color: #fff;
+    height: 40px;
+    font-size: 20px;
+}
+#first p{
+    padding-top: 10px;
+}
+#zag{
+    font-family: "UniSansHeavyCaps";
+    color: #DCA517;
+    font-size: 50px;
+}
+#zag{
+    font-family: "UniSansHeavyCaps";
+    color: #DCA517;
+    font-size: 40px;
+}
+.text1{
+    font-size: 22px;
+}
+#section1 p{
+    text-align: center;
+}
+.form-control{
+    width: 300px;
+}
+.btn-group-lg > .btn, .btn-lg{
+    font-size: 34px;
+}
+label{
+    margin-right: 220px;
+}
+footer{
+    background: #40AD2D;
+    margin-top: 100px;
+    padding-top: 30px;
+    color: black;
+    font-size: 20px;
+}
+
+a{
+    color: #333;
+}
+p{
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.my1 p{
+    font-size: 16px;
+    margin-top: 10px;
+}

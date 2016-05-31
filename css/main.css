@@ -1,0 +1,116 @@
+header {
+    background-image: url(../images/hero.jpg);
+    padding-top: 50px;
+    color: #fff;
+    background-size: cover;
+    background-position: center center;
+}
+
+@font-face {
+	font-family: 'Conv_Solomon Sans Black';
+	src: url('fonts/Solomon Sans Black.eot');
+	src: local('☺'), url('fonts/Solomon Sans Black.woff') format('woff'), url('fonts/Solomon Sans Black.ttf') format('truetype'), url('fonts/Solomon Sans Black.svg') format('svg');
+}
+h1 {
+    font-size: 45px;
+    text-shadow: 3px 3px 2px rgba(150, 150, 150, 1);
+}
+h2 {
+    font-size: 40px;
+    text-shadow: 3px 3px 2px rgba(150, 150, 150, 1);
+}
+h1,h2,h3 {
+    font-family: 'Conv_Solomon Sans Black';
+    text-align: center;
+}
+
+@media (max-width:768px) {
+    h1{
+        font-size: 20px;
+    }
+    
+    h2{
+        font-size: 15px;
+    }
+}
+@media (min-width:768px){
+    .btn{
+        font-size: 40px;
+    }
+    
+    #space1 {
+    padding-top: 150px;
+    }
+    
+    header {
+        background-attachment: fixed;
+        padding-top: 150px;
+    }
+}
+
+h3 {
+    font-family: 'Conv_Solomon Sans Black';
+    font-size: 35px;
+}
+
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.navbar-default {
+    border: none;
+    background: transparent;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-family: 'Conv_Solomon Sans Black';
+    font-size: 20px;
+    padding-right: 26px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+
+.navbar-default .navbar-nav > li >a:hover,
+.navbar-default .navbar-nav > li >a:focus {
+    color: #00cab0;
+    background-color: transparent;
+}
+
+hr {
+    width: 100px;
+}
+
+.btn {
+    font-family: 'Conv_Solomon Sans Black';
+}
+
+.btn-success {
+    background: #00cab0;
+}
+.btn-success:hover {
+    background: #00cab0;
+}
+
+#but1 {
+    box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.56)
+}
+
+.modal-bady {
+    padding: 0;
+}
+
+#img1,#img2,#img3 {
+    color: #fff;
+}
+
+footer {
+    background:#a1a1a1;
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
